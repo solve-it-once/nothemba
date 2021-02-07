@@ -1,0 +1,20 @@
+uuid: 92cfd14e-c207-4ccc-a191-1c8d485f53bb
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_checkout
+  theme:
+    - frost_theme
+id: checkoutprogress
+theme: frost_theme
+region: pre_content
+weight: -3
+provider: null
+plugin: commerce_checkout_progress
+settings:
+  id: commerce_checkout_progress
+  label: 'Checkout progress'
+  provider: commerce_checkout
+  label_display: visible
+visibility: {  }

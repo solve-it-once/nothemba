@@ -1,0 +1,9 @@
+uuid: af441a3c-1f24-4ca1-80da-d6958e28824e
+langcode: en
+status: true
+dependencies: {  }
+currencyCode: CAD
+name: 'Canadian Dollar'
+numericCode: '124'
+symbol: CA$
+fractionDigits: 2

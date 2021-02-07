@@ -1,0 +1,10 @@
+uuid: b713f029-691f-420d-b4dd-773f0c43bc66
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_recurring
+id: commerce_subscription.teaser
+label: Teaser
+targetEntityType: commerce_subscription
+cache: true

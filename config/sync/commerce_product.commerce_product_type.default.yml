@@ -1,0 +1,14 @@
+uuid: c0a5cada-c2a0-402d-9d4a-114b9000a247
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: igdv1CXBTq9vh-ONhQ2SFkVhr3bdfRC6nP1Uubdx-L0
+id: default
+label: Default
+description: 'A standard good or service without variations or attributes/options to handle. '
+variationType: default
+multipleVariations: true
+injectVariationFields: false
+traits: {  }
+locked: false

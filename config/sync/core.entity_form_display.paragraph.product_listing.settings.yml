@@ -1,0 +1,31 @@
+uuid: e9b302ab-72ea-4c0a-b608-7340ee7b57c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.paragraph.settings
+    - field.field.paragraph.product_listing.field_products
+    - field.field.paragraph.product_listing.field_style_layout
+    - field.field.paragraph.product_listing.field_viewmode
+    - paragraphs.paragraphs_type.product_listing
+id: paragraph.product_listing.settings
+targetEntityType: paragraph
+bundle: product_listing
+mode: settings
+content:
+  field_style_layout:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_viewmode:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  field_products: true
+  status: true

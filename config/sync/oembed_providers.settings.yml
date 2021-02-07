@@ -1,0 +1,54 @@
+allowed_providers:
+  - 'ArcGIS StoryMaps'
+  - Avocode
+  - Blackfire.io
+  - Blogcast
+  - ChartBlocks
+  - Codepen
+  - CollegeHumor
+  - Dailymotion
+  - DocDroid
+  - 'Embed Articles'
+  - Facebook
+  - Flickr
+  - FunnyOrDie
+  - 'Getty Images'
+  - GIPHY
+  - Hulu
+  - iFixit
+  - IFTTT
+  - iHeartRadio
+  - Instagram
+  - Kickstarter
+  - LearningApps.org
+  - Livestream
+  - Meetup
+  - 'Microsoft Stream'
+  - Reddit
+  - Screencast.com
+  - Screenr
+  - Scribd
+  - Simplecast
+  - SlideShare
+  - SmashNotes
+  - SmugMug
+  - SoundCloud
+  - SpeakerDeck
+  - Spotify
+  - Streamable
+  - Subscribi
+  - TED
+  - 'The New York Times'
+  - TikTok
+  - Tumblr
+  - Twitter
+  - Ustream
+  - Vidyard
+  - Vimeo
+  - 'Wolfram Cloud'
+  - WordPress.com
+  - YouTube
+  - Zoomable
+external_fetch: true
+_core:
+  default_config_hash: lgWtCY9jfjkig9RkOgXl1JO2lGljsH4yqnQeKK1VpoA

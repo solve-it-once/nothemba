@@ -1,0 +1,109 @@
+form_settings:
+  block_content:
+    default_value: false
+    disable: false
+    hidden: false
+  commerce_log:
+    default_value: false
+    disable: false
+    hidden: false
+  commerce_order:
+    default_value: false
+    disable: false
+    hidden: false
+  commerce_order_item:
+    default_value: false
+    disable: false
+    hidden: false
+  commerce_payment:
+    default_value: false
+    disable: false
+    hidden: false
+  commerce_payment_method:
+    default_value: false
+    disable: false
+    hidden: false
+  commerce_product:
+    default_value: false
+    disable: false
+    hidden: false
+  commerce_product_variation:
+    default_value: false
+    disable: false
+    hidden: false
+  commerce_product_attribute_value:
+    default_value: false
+    disable: false
+    hidden: false
+  commerce_subscription:
+    default_value: false
+    disable: false
+    hidden: false
+  commerce_shipping_method:
+    default_value: false
+    disable: false
+    hidden: false
+  commerce_shipment:
+    default_value: false
+    disable: false
+    hidden: false
+  commerce_store:
+    default_value: false
+    disable: false
+    hidden: false
+  file:
+    default_value: false
+    disable: false
+    hidden: false
+  mailchimp_campaign:
+    default_value: false
+    disable: false
+    hidden: false
+  media:
+    default_value: false
+    disable: false
+    hidden: false
+  node:
+    default_value: false
+    disable: false
+    hidden: false
+  paragraphs_library_item:
+    default_value: false
+    disable: false
+    hidden: false
+  path_alias:
+    default_value: false
+    disable: false
+    hidden: false
+  profile:
+    default_value: false
+    disable: false
+    hidden: false
+  redirect:
+    default_value: false
+    disable: false
+    hidden: false
+  search_api_task:
+    default_value: false
+    disable: false
+    hidden: false
+  taxonomy_term:
+    default_value: false
+    disable: false
+    hidden: false
+  user:
+    default_value: false
+    disable: false
+    hidden: false
+  webform_submission:
+    default_value: false
+    disable: false
+    hidden: false
+  menu_link_content:
+    default_value: false
+    disable: false
+    hidden: false
+  paragraph:
+    default_value: false
+    disable: false
+    hidden: false

@@ -1,0 +1,30 @@
+uuid: 60c3e6b8-d649-448e-ae66-22c426f7b3a8
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_cart
+    - commerce_checkout
+    - commerce_recurring
+    - commerce_shipping
+third_party_settings:
+  commerce_cart:
+    cart_form_view: commerce_cart_form
+    cart_block_view: commerce_cart_block
+    cart_expiration: {  }
+  commerce_checkout:
+    checkout_flow: paypal_checkout
+  commerce_shipping:
+    shipment_type: ''
+_core:
+  default_config_hash: 792iyvjCVODZf_5iMHKhvhpGeC-uLVBLdjqi3xSkDKg
+label: Recurring
+id: recurring
+workflow: order_recurring
+numberPattern: order_default
+refresh_mode: customer
+refresh_frequency: 300
+sendReceipt: true
+receiptBcc: brad@solveitonce.com
+traits: {  }
+locked: true

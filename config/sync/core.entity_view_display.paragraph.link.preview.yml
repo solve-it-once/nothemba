@@ -1,0 +1,35 @@
+uuid: 5da3c809-bcac-416b-b68e-3d860000567c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.link.field_link
+    - field.field.paragraph.link.field_style_button
+    - field.field.paragraph.link.field_style_childbgcolor
+    - paragraphs.paragraphs_type.link
+  module:
+    - link
+_core:
+  default_config_hash: kIyKItxq-rTE5zOTFXMdHOT_w8OqLSdv7a5Ki9_hle0
+id: paragraph.link.preview
+targetEntityType: paragraph
+bundle: link
+mode: preview
+content:
+  field_link:
+    weight: 0
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden:
+  field_style_button: true
+  field_style_childbgcolor: true
+  search_api_excerpt: true

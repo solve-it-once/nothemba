@@ -1,0 +1,15 @@
+uuid: 5d9b779c-157d-4aa3-adb7-5ed5bcacdda5
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_tax
+third_party_settings:
+  commerce_tax:
+    taxable_type: digital_goods
+label: Default
+id: default
+purchasableEntityType: commerce_product_variation
+orderType: default
+traits: {  }
+locked: false

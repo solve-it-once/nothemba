@@ -1,0 +1,10 @@
+uuid: 2ef1f9cb-110f-4c52-b42e-8893650043ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_payment
+id: commerce_payment.teaser
+label: Teaser
+targetEntityType: commerce_payment
+cache: true

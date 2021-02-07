@@ -1,0 +1,20 @@
+uuid: be3ce875-ffc5-4c4d-be7b-8a850a849172
+langcode: en
+status: true
+dependencies:
+  module:
+    - frost_custom
+  theme:
+    - frost_theme
+id: cookienotice
+theme: frost_theme
+region: post_footer
+weight: 0
+provider: null
+plugin: cookie_block
+settings:
+  id: cookie_block
+  label: 'Cookie notice'
+  provider: frost_custom
+  label_display: '0'
+visibility: {  }

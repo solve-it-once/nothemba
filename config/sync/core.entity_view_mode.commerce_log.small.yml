@@ -1,0 +1,10 @@
+uuid: 7627e8e7-e5cb-4a77-bc0c-d5141d3415db
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_log
+id: commerce_log.small
+label: Small
+targetEntityType: commerce_log
+cache: true

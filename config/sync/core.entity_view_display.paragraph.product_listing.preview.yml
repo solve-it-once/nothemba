@@ -1,0 +1,27 @@
+uuid: b9d168e7-8f21-4fc5-92b6-b9b49832e802
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.product_listing.field_products
+    - field.field.paragraph.product_listing.field_style_layout
+    - field.field.paragraph.product_listing.field_viewmode
+    - paragraphs.paragraphs_type.product_listing
+id: paragraph.product_listing.preview
+targetEntityType: paragraph
+bundle: product_listing
+mode: preview
+content:
+  field_products:
+    weight: 0
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  field_style_layout: true
+  field_viewmode: true
+  search_api_excerpt: true

@@ -1,0 +1,130 @@
+uuid: a22a9074-130c-4969-9afe-96c8e0c6bc6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.category.field_hero
+    - field.field.taxonomy_term.category.field_image
+    - field.field.taxonomy_term.category.field_sections
+    - field.field.taxonomy_term.category.field_seo
+    - taxonomy.vocabulary.category
+  module:
+    - media_library
+    - paragraphs
+    - paragraphs_features
+    - path
+    - text
+id: taxonomy_term.category.default
+targetEntityType: taxonomy_term
+bundle: category
+mode: default
+content:
+  description:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+      rows: 5
+    third_party_settings: {  }
+  field_hero:
+    weight: 2
+    settings:
+      title: Hero
+      title_plural: Heroes
+      edit_mode: closed
+      closed_mode: preview
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: button
+      form_display_mode: default
+      default_paragraph_type: _none
+      features:
+        add_above: '0'
+        collapse_edit_all: collapse_edit_all
+        duplicate: '0'
+    third_party_settings:
+      paragraphs_features:
+        delete_confirmation: false
+        add_in_between: false
+        split_text: false
+        show_drag_and_drop: false
+    type: paragraphs
+    region: content
+  field_image:
+    weight: 3
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+    type: media_library_widget
+    region: content
+  field_sections:
+    weight: 4
+    settings:
+      title: Stripe
+      title_plural: Stripes
+      edit_mode: closed
+      closed_mode: preview
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: button
+      form_display_mode: default
+      default_paragraph_type: _none
+      features:
+        add_above: add_above
+        collapse_edit_all: collapse_edit_all
+        duplicate: duplicate
+    third_party_settings:
+      paragraphs_features:
+        show_drag_and_drop: true
+        delete_confirmation: false
+        add_in_between: false
+        split_text: false
+    type: paragraphs
+    region: content
+  field_seo:
+    weight: 5
+    settings:
+      title: SEO
+      title_plural: SEOs
+      edit_mode: open
+      add_mode: button
+      form_display_mode: default
+      default_paragraph_type: seo
+    third_party_settings: {  }
+    type: entity_reference_paragraphs
+    region: content
+  langcode:
+    type: language_select
+    weight: 6
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  menu:
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 9
+    region: content
+    third_party_settings: {  }
+hidden: {  }

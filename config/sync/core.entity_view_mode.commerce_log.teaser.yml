@@ -1,0 +1,10 @@
+uuid: c19251ab-6b06-49f0-bd73-ee0a0bb66301
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_log
+id: commerce_log.teaser
+label: Teaser
+targetEntityType: commerce_log
+cache: true

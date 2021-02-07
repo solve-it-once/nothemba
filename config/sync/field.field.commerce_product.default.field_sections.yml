@@ -1,0 +1,111 @@
+uuid: 706bc1c8-f45b-4785-8b26-7ed189470653
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.default
+    - field.storage.commerce_product.field_sections
+    - paragraphs.paragraphs_type.from_library
+    - paragraphs.paragraphs_type.stripe
+  module:
+    - entity_reference_revisions
+id: commerce_product.default.field_sections
+field_name: field_sections
+entity_type: commerce_product
+bundle: default
+label: Stripes
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      from_library: from_library
+      stripe: stripe
+    target_bundles_drag_drop:
+      accordion:
+        weight: 28
+        enabled: false
+      block:
+        weight: 29
+        enabled: false
+      blockquote:
+        weight: 30
+        enabled: false
+      card:
+        weight: 31
+        enabled: false
+      cards:
+        weight: 32
+        enabled: false
+      column:
+        weight: 33
+        enabled: false
+      content_listing:
+        weight: 34
+        enabled: false
+      from_library:
+        enabled: true
+        weight: 35
+      heading:
+        weight: 36
+        enabled: false
+      hotspot:
+        weight: 37
+        enabled: false
+      iframe:
+        weight: 38
+        enabled: false
+      layout:
+        weight: 39
+        enabled: false
+      link:
+        weight: 40
+        enabled: false
+      media:
+        weight: 41
+        enabled: false
+      message:
+        weight: 42
+        enabled: false
+      product_listing:
+        weight: 43
+        enabled: false
+      rich_text:
+        weight: 44
+        enabled: false
+      seo:
+        weight: 45
+        enabled: false
+      spacer:
+        weight: 46
+        enabled: false
+      statistic_percent:
+        weight: 47
+        enabled: false
+      stripe:
+        enabled: true
+        weight: 48
+      stripe_collection:
+        weight: 49
+        enabled: false
+      table:
+        weight: 50
+        enabled: false
+      term_listing:
+        weight: 51
+        enabled: false
+      user_listing:
+        weight: 52
+        enabled: false
+      view:
+        weight: 53
+        enabled: false
+      webform:
+        weight: 54
+        enabled: false
+field_type: entity_reference_revisions

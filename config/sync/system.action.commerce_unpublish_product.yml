@@ -1,0 +1,11 @@
+uuid: 9b65dfb9-85e3-4310-8e09-06d1777be8b2
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_unpublish_product
+label: 'Unpublish product'
+type: commerce_product
+plugin: commerce_unpublish_product
+configuration: {  }

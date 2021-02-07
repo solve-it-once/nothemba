@@ -1,0 +1,15 @@
+uuid: ade69c41-1928-4b63-857e-157c0d4f6d7a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Category
+vid: category
+description: 'Top-level subdivisions of content. Semi-structured vocabulary'
+weight: 0

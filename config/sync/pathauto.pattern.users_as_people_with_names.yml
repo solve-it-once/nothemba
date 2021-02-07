@@ -1,0 +1,14 @@
+uuid: 86575ff3-3318-4de2-a3e9-792332c4ed5f
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: users_as_people_with_names
+label: 'Users as people with names'
+type: 'canonical_entities:user'
+pattern: 'person/[user:field_name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

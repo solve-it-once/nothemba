@@ -1,0 +1,10 @@
+uuid: 85ae3b60-011a-47be-bd13-e798131fe632
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_payment
+id: commerce_payment_method.small
+label: Small
+targetEntityType: commerce_payment_method
+cache: true

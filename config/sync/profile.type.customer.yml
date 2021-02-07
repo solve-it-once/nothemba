@@ -1,0 +1,18 @@
+uuid: 01ea3d3c-d5a5-4157-aa4d-985eb8d9008c
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_order
+third_party_settings:
+  commerce_order:
+    customer_profile_type: true
+id: customer
+label: Customer
+display_label: 'Customer information'
+multiple: true
+registration: false
+roles: {  }
+allow_revisions: false
+new_revision: false

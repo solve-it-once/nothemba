@@ -1,0 +1,55 @@
+uuid: c9a43593-81fb-4aaf-8b16-5a47b76c8d24
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.user.register
+    - field.field.user.user.commerce_remote_id
+    - field.field.user.user.field_biography
+    - field.field.user.user.field_email
+    - field.field.user.user.field_image
+    - field.field.user.user.field_jobtitle
+    - field.field.user.user.field_name
+    - field.field.user.user.field_phone
+    - field.field.user.user.field_text_location
+  module:
+    - user
+_core:
+  default_config_hash: wjCWxv3q4P5ax-kv2QSF-4tM55J9Lp4ykzR-qwc5zy4
+id: user.user.register
+targetEntityType: user
+bundle: user
+mode: register
+content:
+  account:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_email:
+    type: email_default
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  google_analytics:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  commerce_remote_id: true
+  contact: true
+  customer_profiles: true
+  field_biography: true
+  field_image: true
+  field_jobtitle: true
+  field_name: true
+  field_phone: true
+  field_text_location: true
+  langcode: true
+  language: true
+  path: true
+  timezone: true

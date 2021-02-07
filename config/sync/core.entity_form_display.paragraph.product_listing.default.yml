@@ -1,0 +1,93 @@
+uuid: 7b8c345e-671f-4405-9ddb-011fb87dcec5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.product_listing.field_products
+    - field.field.paragraph.product_listing.field_style_layout
+    - field.field.paragraph.product_listing.field_viewmode
+    - paragraphs.paragraphs_type.product_listing
+  module:
+    - field_group
+    - inline_entity_form
+third_party_settings:
+  field_group:
+    group_admin:
+      children:
+        - group_content
+        - group_settings
+      parent_name: ''
+      weight: 0
+      format_type: tabs
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        direction: horizontal
+      label: Admin
+    group_content:
+      children:
+        - field_products
+      parent_name: group_admin
+      weight: 6
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: open
+        required_fields: false
+      label: Content
+    group_settings:
+      children:
+        - field_style_layout
+        - field_viewmode
+      parent_name: group_admin
+      weight: 7
+      format_type: tab
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        description: ''
+        formatter: closed
+        required_fields: false
+      label: Settings
+id: paragraph.product_listing.default
+targetEntityType: paragraph
+bundle: product_listing
+mode: default
+content:
+  field_products:
+    weight: 3
+    settings:
+      form_mode: default
+      override_labels: true
+      label_singular: Product
+      label_plural: Products
+      allow_existing: true
+      match_operator: CONTAINS
+      revision: false
+      collapsible: false
+      collapsed: false
+      allow_new: false
+      allow_duplicate: false
+    third_party_settings: {  }
+    type: inline_entity_form_complex
+    region: content
+  field_style_layout:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_viewmode:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  status: true

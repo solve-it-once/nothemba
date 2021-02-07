@@ -1,0 +1,16 @@
+uuid: 5bff7248-a33f-4b4e-97c4-8f10e8e76e10
+langcode: en
+status: true
+dependencies: {  }
+id: remote_video
+label: 'Remote video'
+description: "  - 'ArcGIS StoryMaps'\r\n  - Avocode\r\n  - Blackfire.io\r\n  - Blogcast\r\n  - ChartBlocks\r\n  - Codepen\r\n  - CollegeHumor\r\n  - Dailymotion\r\n  - DocDroid\r\n  - 'Embed Articles'\r\n  - Facebook\r\n  - Flickr\r\n  - FunnyOrDie\r\n  - 'Getty Images'\r\n  - GIPHY\r\n  - Hulu\r\n  - iFixit\r\n  - IFTTT\r\n  - iHeartRadio\r\n  - Instagram\r\n  - Kickstarter\r\n  - LearningApps.org\r\n  - Livestream\r\n  - Meetup\r\n  - 'Microsoft Stream'\r\n  - Reddit\r\n  - Screencast.com\r\n  - Screenr\r\n  - Scribd\r\n  - Simplecast\r\n  - SlideShare\r\n  - SmashNotes\r\n  - SmugMug\r\n  - SoundCloud\r\n  - SpeakerDeck\r\n  - Spotify\r\n  - Streamable\r\n  - Subscribi\r\n  - TED\r\n  - 'The New York Times'\r\n  - TikTok\r\n  - Tumblr\r\n  - Twitter\r\n  - Ustream\r\n  - Vidyard\r\n  - Vimeo\r\n  - 'Wolfram Cloud'\r\n  - WordPress.com\r\n  - YouTube\r\n  - Zoomable"
+source: 'oembed:video'
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  thumbnails_directory: 'public://oembed_thumbnails'
+  providers: {  }
+  source_field: field_media_oembed_video
+field_map:
+  title: name

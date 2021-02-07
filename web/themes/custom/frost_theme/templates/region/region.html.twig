@@ -1,0 +1,17 @@
+{% if content %}
+  {% if wrapped %}
+    <{{ html_tag }}{{ attributes.addClass(classes) }}>
+  {%  endif %}
+    {% if inner %}
+      <div{{ content_attributes }}>
+    {%  endif %}
+
+    {{ content }}
+
+    {% if inner %}
+      </div>
+    {% endif %}
+  {%  if wrapped %}
+    </{{ html_tag }}>
+  {%  endif %}
+{% endif %}

@@ -1,0 +1,30 @@
+uuid: f5943ea4-5267-4b93-9baa-07ee64e8de62
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.search_index
+    - field.field.paragraph.hotspot.field_data_xpercent
+    - field.field.paragraph.hotspot.field_data_ypercent
+    - field.field.paragraph.hotspot.field_text
+    - paragraphs.paragraphs_type.hotspot
+  module:
+    - text
+_core:
+  default_config_hash: d0qlPkXUgfmHz23hrgO79AKs5-2TjC995EpYDxnK7YQ
+id: paragraph.hotspot.search_index
+targetEntityType: paragraph
+bundle: hotspot
+mode: search_index
+content:
+  field_text:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  field_data_xpercent: true
+  field_data_ypercent: true
+  search_api_excerpt: true

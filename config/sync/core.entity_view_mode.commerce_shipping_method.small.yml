@@ -1,0 +1,10 @@
+uuid: 52740939-e61a-4c7c-a587-3c7a7607cb72
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_shipping
+id: commerce_shipping_method.small
+label: Small
+targetEntityType: commerce_shipping_method
+cache: true

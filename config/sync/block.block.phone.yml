@@ -1,0 +1,20 @@
+uuid: e1747e10-b398-4c3f-90f0-653ed8f2e67f
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact_info
+  theme:
+    - frost_theme
+id: phone
+theme: frost_theme
+region: footer
+weight: -7
+provider: null
+plugin: phone
+settings:
+  id: phone
+  label: Phone
+  provider: contact_info
+  label_display: '0'
+visibility: {  }

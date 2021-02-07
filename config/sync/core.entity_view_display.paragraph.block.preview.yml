@@ -1,0 +1,26 @@
+uuid: ad7022d3-4b54-45f9-b6cd-59b14aa1fbf1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.block.field_block
+    - paragraphs.paragraphs_type.block
+  module:
+    - block_field
+_core:
+  default_config_hash: E0Bv3WdKTvIzUboon7uUn1TCuv_kSeYwPEecmKr3VX8
+id: paragraph.block.preview
+targetEntityType: paragraph
+bundle: block
+mode: preview
+content:
+  field_block:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: block_field_label
+    region: content
+hidden:
+  search_api_excerpt: true

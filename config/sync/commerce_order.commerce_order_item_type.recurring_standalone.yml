@@ -1,0 +1,20 @@
+uuid: 02a21e83-8f6b-4594-ba02-6e14dba0f166
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_recurring
+  module:
+    - commerce_tax
+third_party_settings:
+  commerce_tax:
+    taxable_type: digital_goods
+_core:
+  default_config_hash: iFZgD_z6PSZqyLy65J_OLjA_nnGu-lvKxgPr0BNiCCI
+label: 'Recurring (Standalone)'
+id: recurring_standalone
+purchasableEntityType: ''
+orderType: recurring
+traits: {  }
+locked: true

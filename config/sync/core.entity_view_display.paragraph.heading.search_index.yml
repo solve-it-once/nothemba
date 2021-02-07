@@ -1,0 +1,47 @@
+uuid: 8b275a2d-2045-41b2-8034-8b81c99fb567
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.search_index
+    - field.field.paragraph.heading.field_heading
+    - field.field.paragraph.heading.field_image
+    - field.field.paragraph.heading.field_style_color_all
+    - field.field.paragraph.heading.field_style_fontweight
+    - field.field.paragraph.heading.field_style_headinglevel
+    - field.field.paragraph.heading.field_style_texttransform
+    - paragraphs.paragraphs_type.heading
+  module:
+    - field_formatter_class
+    - frost_custom
+_core:
+  default_config_hash: RteCBbDBLf_ikC2gYKalGo_KJdqRrk2ABi87rq_uwIg
+id: paragraph.heading.search_index
+targetEntityType: paragraph
+bundle: heading
+mode: search_index
+content:
+  field_heading:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: heading_default
+    region: content
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: search_index
+      link: false
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+    type: entity_reference_entity_view
+    region: content
+hidden:
+  field_style_color_all: true
+  field_style_fontweight: true
+  field_style_headinglevel: true
+  field_style_texttransform: true
+  search_api_excerpt: true

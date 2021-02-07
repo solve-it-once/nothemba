@@ -1,0 +1,42 @@
+uuid: 7e0e37de-ed05-4f64-b290-dcb697e3c591
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - ctools
+    - frost_custom
+    - node
+  theme:
+    - frost_theme
+third_party_settings:
+  block_class:
+    classes: appear-as-stripe
+id: shareandfavorites
+theme: frost_theme
+region: content
+weight: 0
+provider: null
+plugin: social_share_block
+settings:
+  id: social_share_block
+  label: 'Share socially'
+  provider: frost_custom
+  label_display: visible
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+      event: event
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      event: event
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

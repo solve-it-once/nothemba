@@ -1,0 +1,32 @@
+uuid: cd475857-4083-4d62-837a-d089e5aff842
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.webform.field_webform
+    - paragraphs.paragraphs_type.webform
+  module:
+    - field_formatter_class
+    - webform
+_core:
+  default_config_hash: m8W5UWEXCSXAslDbOm200oB1IjBDrXaphexadDEaF1M
+id: paragraph.webform.preview
+targetEntityType: paragraph
+bundle: webform
+mode: preview
+content:
+  field_webform:
+    weight: 0
+    label: hidden
+    settings:
+      label: 'Go to [webform:title] webform'
+      dialog: ''
+      attributes: {  }
+    third_party_settings:
+      field_formatter_class:
+        class: ''
+    type: webform_entity_reference_link
+    region: content
+hidden:
+  search_api_excerpt: true

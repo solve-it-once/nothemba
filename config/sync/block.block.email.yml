@@ -1,0 +1,24 @@
+uuid: 990f000f-73e8-4135-acb9-835889884432
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - contact_info
+  theme:
+    - frost_theme
+third_party_settings:
+  block_class:
+    classes: margin-vertical--2
+id: email
+theme: frost_theme
+region: footer
+weight: -6
+provider: null
+plugin: email
+settings:
+  id: email
+  label: Email
+  provider: contact_info
+  label_display: '0'
+visibility: {  }

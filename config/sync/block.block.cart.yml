@@ -1,0 +1,25 @@
+uuid: b77c9ce2-18ac-4c6a-93c9-c1e7f0303724
+langcode: en
+status: false
+dependencies:
+  module:
+    - block_class
+    - commerce_cart
+  theme:
+    - frost_theme
+third_party_settings:
+  block_class:
+    classes: 'display--flex align-items--center justify-content--center margin-horizontal--2'
+id: cart
+theme: frost_theme
+region: utility
+weight: -7
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: Cart
+  provider: commerce_cart
+  label_display: '0'
+  dropdown: true
+visibility: {  }

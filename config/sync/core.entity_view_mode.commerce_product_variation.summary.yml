@@ -1,0 +1,13 @@
+uuid: 4b6a7932-2278-434c-8b3f-20dfe3dc559e
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_checkout
+  module:
+    - commerce_product
+id: commerce_product_variation.summary
+label: Summary
+targetEntityType: commerce_product_variation
+cache: true

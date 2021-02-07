@@ -1,0 +1,34 @@
+uuid: cd688759-f750-4266-9ac8-9e14bd85e14f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: XeWQBoKQFC7lZln1-PALmSpfWNHdgfxGyvKL88QDuGw
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access checkout'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'cancel account'
+  - 'create customer profile'
+  - 'manage own commerce_payment_method'
+  - 'never autoplay videos'
+  - 'opt-in or out of google analytics tracking'
+  - 'use text format mailchimp_campaign'
+  - 'view commerce_product'
+  - 'view commerce_product_attribute'
+  - 'view commerce_store'
+  - 'view course commerce_product'
+  - 'view default commerce_product'
+  - 'view iqxcloud commerce_product'
+  - 'view media'
+  - 'view online commerce_store'
+  - 'view own commerce_order'
+  - 'view own customer profile'
+  - 'view own profile'
+  - 'view published container entities'
+  - 'view published paragraph set entities'
+  - 'view saas commerce_product'

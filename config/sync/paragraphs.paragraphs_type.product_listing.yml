@@ -1,0 +1,10 @@
+uuid: 1d3a3443-e67c-4c5e-90b3-be644cd9574a
+langcode: en
+status: true
+dependencies: {  }
+id: product_listing
+label: 'Product listing'
+icon_uuid: null
+icon_default: null
+description: 'Choose whichever products you''d like and display them as teasers'
+behavior_plugins: {  }

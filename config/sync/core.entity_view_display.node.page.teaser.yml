@@ -1,0 +1,85 @@
+uuid: d91613f7-7390-41aa-9b84-ca8bbcd47562
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.page.body
+    - field.field.node.page.field_categories
+    - field.field.node.page.field_hero
+    - field.field.node.page.field_image
+    - field.field.node.page.field_sections
+    - field.field.node.page.field_seo
+    - field.field.node.page.field_tags
+    - node.type.page
+  module:
+    - field_formatter_class
+    - field_group
+    - text
+    - user
+third_party_settings:
+  field_group:
+    group_text_contents:
+      children:
+        - linked_title
+        - body
+      parent_name: ''
+      weight: 1
+      format_type: html_element
+      region: content
+      format_settings:
+        id: ''
+        classes: 'padding-horizontal--2 padding-vertical--2 flex--1'
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Text contents'
+_core:
+  default_config_hash: HCrPqEYxpkriEqtbhCXSvZumyaNg1jFu08Kf2nFLjrs
+id: node.page.teaser
+targetEntityType: node
+bundle: page
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    type: entity_reference_entity_view
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings:
+      field_formatter_class:
+        class: flex--1
+  linked_title:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  breadcrumb: true
+  field_categories: true
+  field_hero: true
+  field_sections: true
+  field_seo: true
+  field_tags: true
+  frost_submitted: true
+  langcode: true
+  search_api_excerpt: true

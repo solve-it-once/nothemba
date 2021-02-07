@@ -1,0 +1,11 @@
+# All aliases in one file.
+
+platformmaster:
+  host: ssh.eu-4.platform.sh
+  paths:
+    files: sites/default/files
+  root: /app/web
+  ssh:
+    options: '-o PasswordAuthentication=no'
+  uri: master-7rqtwti-jzvvphvwpflyg.eu-4.platformsh.site
+  user: jzvvphvwpflyg-master-7rqtwti--app

@@ -1,0 +1,29 @@
+uuid: a951d079-21b5-4046-9cde-2055d5fa40fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.message.field_style_messageseverity
+    - field.field.paragraph.message.field_text
+    - paragraphs.paragraphs_type.message
+  module:
+    - text
+_core:
+  default_config_hash: N5xIgDiDdajWlxWa5ph4UYTYGNZOryMNh9Izy0Z9PZM
+id: paragraph.message.preview
+targetEntityType: paragraph
+bundle: message
+mode: preview
+content:
+  field_text:
+    weight: 0
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    type: text_trimmed
+    region: content
+hidden:
+  field_style_messageseverity: true
+  search_api_excerpt: true

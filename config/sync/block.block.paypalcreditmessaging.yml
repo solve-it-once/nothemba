@@ -1,0 +1,28 @@
+uuid: 8fb43c63-335c-4e5e-baac-8fea838f47ec
+langcode: en
+status: false
+dependencies:
+  module:
+    - commerce_paypal
+  theme:
+    - frost_theme
+id: paypalcreditmessaging
+theme: frost_theme
+region: pre_content
+weight: -7
+provider: null
+plugin: commerce_paypal
+settings:
+  id: commerce_paypal
+  label: 'PayPal Credit messaging'
+  provider: commerce_paypal
+  label_display: '0'
+  placement: home
+  style: flex
+  color: blue
+  ratio: 1x1
+  logo_type: primary
+  logo_position: left
+  text_size: '12'
+  text_color: black
+visibility: {  }

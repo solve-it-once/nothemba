@@ -1,0 +1,14 @@
+uuid: 52cf02ae-0417-400d-8bf1-f61aa9cf2eed
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: product
+label: Product
+type: 'canonical_entities:commerce_product'
+pattern: 'products/[commerce_product:type]/[commerce_product:title]'
+selection_criteria: {  }
+selection_logic: and
+weight: -8
+relationships: {  }

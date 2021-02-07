@@ -1,0 +1,31 @@
+uuid: c1e7c154-7775-4291-bcd7-888cd3752a67
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.hotspot.field_data_xpercent
+    - field.field.paragraph.hotspot.field_data_ypercent
+    - field.field.paragraph.hotspot.field_text
+    - paragraphs.paragraphs_type.hotspot
+  module:
+    - text
+_core:
+  default_config_hash: d0qlPkXUgfmHz23hrgO79AKs5-2TjC995EpYDxnK7YQ
+id: paragraph.hotspot.preview
+targetEntityType: paragraph
+bundle: hotspot
+mode: preview
+content:
+  field_text:
+    weight: 0
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    type: text_trimmed
+    region: content
+hidden:
+  field_data_xpercent: true
+  field_data_ypercent: true
+  search_api_excerpt: true

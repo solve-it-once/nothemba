@@ -1,0 +1,10 @@
+uuid: 3a743f94-c643-483a-9498-024b95965e3e
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_recurring
+id: commerce_subscription.small
+label: Small
+targetEntityType: commerce_subscription
+cache: true

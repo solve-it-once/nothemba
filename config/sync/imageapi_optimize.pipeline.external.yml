@@ -1,0 +1,15 @@
+uuid: 6bf254e4-6679-42a4-9906-44def9338241
+langcode: en
+status: true
+dependencies:
+  module:
+    - imageapi_optimize_resmushit
+name: external
+label: External
+processors:
+  19ab1706-59ed-45c7-a22e-58e1dd7d9a04:
+    uuid: 19ab1706-59ed-45c7-a22e-58e1dd7d9a04
+    id: resmushit
+    weight: 1
+    data:
+      quality: 75

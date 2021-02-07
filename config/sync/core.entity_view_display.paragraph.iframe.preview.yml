@@ -1,0 +1,37 @@
+uuid: 3c422439-a832-460a-ac2c-7d6492d0d1a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.iframe.field_iframe
+    - paragraphs.paragraphs_type.iframe
+  module:
+    - iframe
+_core:
+  default_config_hash: kMMfEKboQ9IsTLNIWuwJX5JrlwgmhELh3mIPw2cUUBA
+id: paragraph.iframe.preview
+targetEntityType: paragraph
+bundle: iframe
+mode: preview
+content:
+  field_iframe:
+    weight: 0
+    label: hidden
+    settings:
+      url: ''
+      title: ''
+      width: ''
+      height: ''
+      class: ''
+      expose_class: ''
+      frameborder: '0'
+      scrolling: auto
+      transparency: '0'
+      tokensupport: '0'
+      allowfullscreen: '0'
+    third_party_settings: {  }
+    type: iframe_asurl
+    region: content
+hidden:
+  search_api_excerpt: true
