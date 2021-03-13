@@ -450,7 +450,8 @@
     "drupal/imageapi_optimize_resmushit": "^2.0@beta",
     "drupal/entity_clone": "^1.0@beta",
     "drupal/jquery_ui_accordion": "^1.1",
-    "drupal/auditfiles": "^2.11"
+    "drupal/auditfiles": "^2.11",
+    "drupal/devel_entity_updates": "^3.0"
   },
   "require-dev": {
     "behat/behat": "3.*",
